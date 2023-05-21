@@ -1,0 +1,266 @@
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.title {
+  background: #2f303a;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+h1 {
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.h1-button {
+  background: #2196f3;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+}
+.h1-button:hover {
+  cursor: pointer;
+}
+.buttons {
+  background: #f5f4fa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+  border-radius: 4px;
+  border-style: none;
+}
+.buttons:hover,
+.buttons:focus {
+  background: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  padding-right: 93px;
+}
+.color-logo {
+  color: #2196f3;
+}
+.menu {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.menu-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-buttons {
+  display: flex;
+  gap: 50px;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+}
+.menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-contact:hover,
+.menu-contact:focus {
+  color: #2196f3;
+}
+.contacts {
+  display: flex;
+  gap: 50px;
+}
+.menu-contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #757575;
+}
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.heading-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  background: #f5f4fa;
+}
+.heading-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-card {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+  padding-top: 15px;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
+.image-backgroud {
+  background: #ffffff;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+  padding-top: 60px;
+}
+.footer-background {
+  background: #2f303a;
+}
+.footer-contact-address {
+  line-height: 1.71;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.footer-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
+.advantages {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-bottom: 10px;
+}
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  padding-left: 24px;
+}
+.project-type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.project-border {
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+  border: 1px solid #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.solutions {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
+.lorem {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  justify-content: space-between;
+}
+.team {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  justify-content: space-between;
+}
+.occupation {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.project-buttons {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+  gap: 8px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-contacts {
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+}
