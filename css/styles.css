@@ -270,20 +270,14 @@ h1 {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin: 0 auto;
   justify-content: space-between;
 }
 .clients-background {
-  width: 170px;
-  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .client-icons {
   fill: #afb1b8;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .social-icons-group {
   display: flex;
@@ -314,16 +308,11 @@ h1 {
   background-color: #2196f3;
 }
 .lorem-icons-backgroud {
-  width: 270px;
-  height: 100px;
-  top: 774px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding-top: 25px;
-  padding-left: 102.34px;
 }
 .lorem-icons {
   display: flex;
   gap: 30px;
-  padding: 0;
+  padding: 25px 102.34px;
 }
