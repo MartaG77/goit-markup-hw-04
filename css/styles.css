@@ -303,6 +303,7 @@ h1 {
 .client-icons:hover,
 .client-icons:focus {
   fill: #2196f3;
+  cursor: pointer;
 }
 .clients-background:hover,
 .clients-background:focus {
