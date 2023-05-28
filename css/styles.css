@@ -4,24 +4,20 @@ a {
 li {
   list-style-type: none;
 }
-.title {
-  background: #2f303a;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 h1 {
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 .h1-button {
@@ -33,6 +29,10 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-style: none;
+  width: 200px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .h1-button:hover {
   cursor: pointer;
@@ -104,6 +104,9 @@ h1 {
 .menu-contact:focus {
   color: #2196f3;
 }
+.menu-contact:hover svg {
+  fill: #2196f3;
+}
 .contacts {
   display: flex;
   gap: 30px;
@@ -169,7 +172,7 @@ h1 {
   padding-top: 60px;
 }
 .footer-background {
-  background: #2f303a;
+  background: #2f303a 40%;
 }
 .footer-contact-address {
   line-height: 1.71;
@@ -231,13 +234,19 @@ h1 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.solutions {
-  box-sizing: content-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 97px;
-  padding-bottom: 97px;
+.solution-background {
+  background-image: url(/goit-markup-hw-04/images/img0.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2f303a;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow: inset 0 0 0 2000px rgba(47, 48, 58, 0.4);
 }
 .lorem {
   display: flex;
@@ -303,21 +312,21 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 16px;
-  margin-right: 32px;
+  gap: 10px;
   margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
   padding: 0;
+  padding-top: 15px;
 }
 .social-icons-background {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 .social-icon {
   fill: #afb1b8;
+  margin: 12px;
 }
 .social-icon:hover,
 .social-icon:focus {
@@ -327,6 +336,12 @@ h1 {
 .social-icons-background:focus {
   background-color: #2196f3;
 }
+.social-icons-background:hover .social-icon {
+  fill: #ffffff;
+}
+.social-icons-background:focus .social-icon {
+  fill: #ffffff;
+}
 .lorem-icons-backgroud {
   background: #f5f4fa;
   border-radius: 4px;
@@ -335,4 +350,50 @@ h1 {
   display: flex;
   gap: 30px;
   padding: 25px 102.34px;
+}
+.footer-columns {
+  display: flex;
+}
+.footer-social {
+  width: 206px;
+  height: 80px;
+  margin-top: 72px;
+  margin-left: 70px;
+}
+.social-header {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.footer-icon-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+  margin-top: 20px;
+}
+.footer-icons {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.footer-icon {
+  fill: #ffffff;
+  margin: 12px;
+}
+.footer-icons:hover,
+.footer-icons:focus {
+  background-color: #2196f3;
+}
+.envelope {
+  fill: #757575;
+}
+.smartphone {
+  fill: #757575;
 }
